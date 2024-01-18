@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#card{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+    
+}
+#card img{
+    height: 30%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 85%;
+    text-align: center;
+}
+#amountbox{
+    width: 70%;
+    height: 10%;
+    background-color: #8bc6ec;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#leftbox{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#rightbox a{
+    text-decoration: none;
+    
+}
+
+#imgbox img{
+   height: 3rem;
+   width: 3rem;
+}
+#paymentbutton{
+    width: 80%;
+    height: 9%;
+    background-color: #04032D;
+    color: white;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#box a{
+ text-decoration: none;
+ color: rgb(49, 44, 44);
+ font-weight: bold;
+ 
+}
